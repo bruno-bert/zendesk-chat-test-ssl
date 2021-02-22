@@ -1,0 +1,32 @@
+body {
+  /*padding-top: 5rem;*/
+}
+
+/* Hide page by default */
+html {
+  display: none;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hero1{
+  background-image: url(../img/header.png);
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
